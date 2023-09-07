@@ -1,0 +1,87 @@
+body {
+    background: #bcbaf1;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    color: #333;body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    h1 {
+        color: #333;
+    }
+    .game-container {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .player {
+        margin: 20px;
+    }
+    .result {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+    }
+    .score {
+        font-size: 18px;
+        margin-top: 10px;
+        color: #666;
+    }
+    #score {
+        font-weight: bold;
+    }
+    #start-button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+}
+.game-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.result {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.mainbox {
+    background-color: #e9e8fa;
+}
+h3{
+    display: block;
+  margin-left: 50;
+  margin-right: 50;
+  width: 50%;
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
